@@ -8,4 +8,4 @@ Then we bundle all files using unix `cat` utility and include it as a single lar
 
 [Link to the first html file (no bundle)](https://dmitry-vsl.github.io/http2-test/nobundle.html)
 
-[Link to the second html file (js is bundled](https://dmitry-vsl.github.io/http2-test/bundle.html)
+[Link to the second html file (js is bundled)](https://dmitry-vsl.github.io/http2-test/bundle.html)
