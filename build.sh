@@ -2,7 +2,7 @@
 set -e
 
 FILE_SIZE_BYTE=1000
-FILES_COUNT=10
+FILES_COUNT=10000
 
 rm -rf public
 mkdir public
