@@ -20,8 +20,9 @@ done
 
 for i in $(seq 1 "$FILES_COUNT"); do
   file=public/$i.js
-  echo -n '//' > $file
+  echo -n '/*' > $file
   head -c $FILE_SIZE_BYTE /dev/urandom | base64 | head -c $FILE_SIZE_BYTE >> $file
+  echo -n '*/' >> $file
   echo "<script src='./$i.js'></script>" >> public/nobundle.html
 done
 
